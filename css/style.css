@@ -47,6 +47,12 @@ body {
 
 
 /*============= CAROUSEL =============*/
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 500px;
+  overflow: hidden;
+}
 
 #carousel {
   box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
